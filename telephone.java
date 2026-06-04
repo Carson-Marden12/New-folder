@@ -18,4 +18,8 @@ public class telephone {
     public static int subtractNum(int dividend) {
         return (dividend - 100);
     }
+
+    public static int multNum(int m){
+        return (m * 2);
+    }
 }
