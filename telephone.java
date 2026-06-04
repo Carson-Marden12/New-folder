@@ -1,10 +1,10 @@
 public class telephone {
 
     public static void main(String[] args) {
-        int j = 10;
+        int j = 103;
         j = addNum(j);
         j = subtractNum(j);
-
+        j = evilkillsyou(j);
 
 
         
@@ -21,5 +21,8 @@ public class telephone {
 
     public static int multNum(int m){
         return (m * 2);
+    }
+    public static int evilkillsyou(int d){
+        return d/100;
     }
 }
