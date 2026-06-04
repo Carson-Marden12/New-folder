@@ -22,4 +22,9 @@ public class telephone {
     public static int multNum(int m){
         return (m * 2);
     }
+
+    public static int mathTime(int y) {
+        return y / 5;
+    }
 }
+ 
